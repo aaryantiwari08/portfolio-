@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Aryan</title>
+  <meta name="description" content="Personal portfolio website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <span class="logo" aria-hidden>Y</span>
+        <span class="name">Aryan Tiwari</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn" href="resume.pdf" download>Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container wrap">
+      <div>
+        <div class="eyebrow">Designer • Developer</div>
+        <h1>Hi, I’m <span style="background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;">Aryan Tiwari</span>.<br/> I build clean, modern web experiences.</h1>
+        <p class="lead">I specialize in crafting responsive interfaces with accessible, performant code. Below is a selection of my recent work and a bit about me.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="portrait card">
+        <div class="frame">
+          <img src="mains.jpg" alt="Aryan Tiwari portrait"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <p class="section-lead">A quick snapshot of who I am and what I do.</p>
+      <div class="content">
+        <div class="card" style="padding:18px;">
+          <p>
+            A IT Student with a Strong Foundation in Cybersecurity and Blockchain with Passion for Learning.
+          </p>
+          <p>
+          I gained practical exposure to ethical hacking, network security, and digital forensics through academic projects, lab sessions, and simulations. I learned to analyze vulnerabilities, investigate cyber incidents, and apply forensic tools for evidence gathering. This experience enhanced my problem-solving skills, technical knowledge, and understanding of real-world cybersecurity challenges, preparing me to work in securing systems and safeguarding digital information effectively.
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>5+</b><span>website</span></div>
+          <div class="stat"><b>30+</b><span>Projects </span></div>
+          <div class="stat"><b>10</b><span>Happy clients</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Selected Projects</h2>
+      <p class="section-lead">A curated set of recent work. Click through to see details.</p>
+
+      <div class="grid">
+        <!-- Card 1 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Dashboard UI screenshot placeholder"/>
+          </div>
+          <div class="project-body">
+            <div class="tag">Case Study</div>
+            <h3 style="margin:8px 0 6px;">Analytics Dashboard</h3>
+            <p class="lead" style="font-size:.98rem; margin:0 0 12px;">A data-dense product dashboard with custom charts and dark mode.</p>
+            <a class="btn" href="#" aria-label="Open Analytics Dashboard case study">View project</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1520975922284-9fcbf6ff9788?q=80&w=1200&auto=format&fit=crop" alt="Marketing site preview placeholder"/>
+          </div>
+          <div class="project-body">
+            <div class="tag">Website</div>
+            <h3 style="margin:8px 0 6px;">SaaS Marketing Site</h3>
+            <p class="lead" style="font-size:.98rem; margin:0 0 12px;">Responsive landing pages with modular sections and A/B tests.</p>
+            <a class="btn" href="#" aria-label="Open SaaS marketing site">View project</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?q=80&w=1200&auto=format&fit=crop" alt="Mobile app preview placeholder"/>
+          </div>
+          <div class="project-body">
+            <div class="tag">game</div>
+            <h3 style="margin:8px 0 6px;">Fintech App</h3>
+            <p class="lead" style="font-size:.98rem; margin:0 0 12px;">Clean finance flows with motion and haptics in mind.</p>
+            <a class="btn" href="#" aria-label="Open Fintech App details">View project</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-lead">Tools & technologies I use regularly.</p>
+      <div class="grid">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">React js</span>
+        <span class="chip">Blockchain</span>
+        <span class="chip">Github</span>
+        <span class="chip">node js</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="item">
+          <div class="role">Bachelor of Computer Applications (Cybersecurity & Forensics)</div>
+          <div class="meta">2023 — 2026</div>
+          <p class="lead" style="font-size:.98rem;">BABU BANARASI DAS UNIVERSITY.</p>
+        </div>
+        <div class="item">
+          <div class="role">Intermediate</div>
+          <div class="meta"> 2022-2023</div>
+          <p class="lead" style="font-size:.98rem;">SRI R LS S S I C NAKAHARA KHANDEV JAUNPUR</p>
+        </div>
+        <div class="item">
+          <div class="role">High School </div>
+          <div class="meta">2019—2020 </div>
+          <p class="lead" style="font-size:.98rem;">NPS PUBLIC SCHOOL SAROKHANPUR BADLAPUR JAUNPUR</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-lead">Have a project in mind? Let’s talk.</p>
+
+    <div class="card" style="padding:18px; display:grid; gap:16px;">
+
+      <div>
+        📧 <strong>Email:</strong>
+        <a href="mailto:aryantiwari91502@gmail.com" style="color:var(--accent); text-decoration:none;">
+          aryantiwari91502@gmail.com
+        </a><br>
+        📞 <strong>Call:</strong>
+        <a href="tel:+917380724400" style="color:var(--accent); text-decoration:none;">
+          +91 73807 24400
+        </a>
+      </div>
+
+      <form id="contactForm">
+  <input type="text" name="name" placeholder="Your name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Tell me about your project…" required></textarea>
+  <button class="btn primary" type="submit">Send message</button>
+</form>
+
+<p id="status" style="color:var(--accent);"></p>
+
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container" style="display:flex; justify-content:space-between; flex-wrap:wrap;">
+    <span>© copyright <span id="y"></span>. All Rights Reserved by Aryan Tiwari</span>
+   <div class="social-icons">
+  <a href="https://instagram.com/aaaryyyan0" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://x.com/aaaryan08" target="_blank" aria-label="Twitter X">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <a href="https://github.com/aaryantiwari08" target="_blank" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://linkedin.com/in/aryantiwari8" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+    <a href="https://www.facebook.com/share/14KutewGPoU/" target="_blank" aria-label="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+</div>
+
+  </div>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
